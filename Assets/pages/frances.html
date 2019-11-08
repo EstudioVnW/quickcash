@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="fr-France">
+<head>
+	<title>QuickCash</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600,700|Montserrat:300,400,500,600,700|Muli:300,400,600,700&display=swap"
+	rel="stylesheet">
+	<meta name="keywords" content="">
+	<meta http-equiv="content-language" content="en-US, fr" />
+</head>
+
+<body>
+	<header id="header">
+		<section id="container-logo">
+			<div class="block-logo">
+				<a href="./frances.html">
+					<img class="img-logo-1" src="../img/logo.png" a href="./style.css"></a>
+				</a>
+			</div>
+			<nav class="menu">
+				<p id="menu-mobile" class="menu-mobile">menu</p>
+				<img src="../img/baseline-close-24px.svg" alt="" id="fechar-menu" class="fechar-menu">
+				<ul class="menu-list">
+					<a href="../pages/about-fr.html" class="menu-item" id="menu-item">
+						<li>Qui Sommes-Nous ?</li>
+					</a>
+					<a href="../pages/products-fr.html" class="menu-item" id="menu-item1">
+						<li>Nos Produits</li>
+					</a>
+					<a href="#Contacts" class="menu-item" id="menu-item2">
+						<li>Contacts</li>
+					</a>
+					<ul class="menu-lang-mobile">
+						<a class="item-lang" href="./frances.html">
+								<li class="frances-en">EN</li>
+							</a>
+						<a class="item-lang" href="./frances.html">
+							<li class="frances-fr"> /FR</li>
+						</a>
+					</ul>
+				</ul>
+				<ul class="box-lang">
+					<a class="item-lang" href="../../index.html">
+						<li class="frances-en">EN</li>
+					</a>
+					<a class="item-lang" href="./frances.html">
+						<li class="frances-fr"> /FR</li>
+					</a>
+				</ul>
+			</nav>
+			<nav class="boxmenu-mobile">
+				<a href="" class="box-menu">MENU</a>
+			</nav>
+		</section>
+	</header>
+	<main id="main">
+		<section class="home">
+			<div class="wrapper-home">
+				<div class="box-title">
+					<h1 class="title-principal">Breaking the boundaries between urban and rural areas!</h1>				
+					<div id="div-form">  
+						<form class="container-form" id="container-form">
+							<div class="title-form">
+								<h2 class="contact-form">Contact us </h2>
+								<button id="close-form" value="reset"type="reset">-</button>
+							</div>
+							<div class="div-box-form">
+									<div class="box-form-contact">
+										<label class="box-form">Name
+										</label>
+										<input type="name" class="input-form" name="Name">
+									</div>
+									<div class="box-form-contact">
+										<label class="box-form">E-mail
+										</label>
+										<input type="email" class="input-form" name="E-mail">	
+									</div>
+									<div class="box-form-contact">
+										<label class="box-form">How can we help you?</label>
+										<textarea class="textarea-form-2" name="How can we help you?"></textarea>
+									</div>
+								</div>
+								<div class="div-button-cancel-send">
+									<button class="button-cancel" id="button-cancel" value="reset"type="reset" ">Cancel</button>
+								<button class="button-send" type="submit">Send</button>
+							</div>
+						</form>
+					</div>
+					
+					
+				<div class="div-button">
+					<button class="button-contact" id="btnForm"><img class="button-contact-img" src="../img/contact.svg">
+						<p class="button-description">Contacts</p> 
+					</button>
+				</div>
+			</div>				
+		</div>
+		</section>
+		<section id="container-products">
+			<div class="wrapper-content">
+				<div id="OurProducts" class="container-title-cash">
+					<h2 class="title-ourproducts">
+						Nos Produits
+					</h2>
+				</div>
+				<div class="container-box-cash">
+					<div class="box-cash">
+						<h2 class="title-cash" data-translatable>Cash à Cash</h2>
+						<img class="img-cash" src="../img/cash.png" alt="">
+						<p class="p-cash">Transfert d'argent classique d'une personne physique à une autre personne physique</p>
+					</div>
+					<div class="box-cash border">
+						<h2 class="title-cash">Cash to Card</h1>
+						<img class="img-cash" src="../img/card.png" alt="">
+						<p class="p-cash">Transfer of money from an individual onto a card</p>
+					</div>
+					<div class="box-cash">
+						<h2 class="title-cash">Cash à Compte</h1>
+						<img class="img-cash" src="../img/account.png" alt="">
+						<p class="p-cash">Conçu pour les migrants, Il permet de transférer de l'argent directement sur un compte bancaire d'origine, à partir du réseau QuickCash.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="simulater">    
+			<div class="wrapper-simulater">
+				<form action="" class="container-simulater">
+					<div class="container-select">
+						<fieldset class="box-simulater">
+							<label class="label-simulater">From:</label>
+							<div class="scrollable">
+								<select class="select-simulater" id="fxexchangerateFrom" onchange="getfxexchangerate(); return false;">
+									<option value="XOF">Ivory Coast</option>
+									<option value="XOF">Burkina Faso</option>
+									<option value="XOF">Mali</option>
+									<option value="NGN">Niger</option>
+									<option value="USD" >Togo</option>
+									
+									<option value="EUR" selected="selected" >Euro</option>
+									<option value="USD">Dollar US</option>
+									<option value="GBP">Livre Sterling</option>
+									<option value="JPY">Yen Japonais</option>
+									<option value="CHF">Franc Suisse</option>
+									<option value="CAD">Dollar Canadien</option>
+									<option value="AUD">Dollar Autralien</option>
+									<option value="CNY">Yuan Chinois</option>
+									<option value="HKD">Dollar HongKongais</option>
+									<option value="RUB">Rouble Russe</option>
+									<option value="MXN">Peso Mexicain</option>
+									<option value="ZAR">Rand SudAfricain</option>
+									<option disabled="disabled">-----------------------------</option>
+									<option value="ALL">Lek Albanais</option>
+									<option value="DZD">Dinar Algérien</option>
+									<option value="ARS">Peso Argentin</option>
+									<option value="AWG">Florin d'Aruba</option>
+									<option value="BSD">Dollar Bahaméen</option>
+									<option value="BHD">Dinar de Bahreïn</option>
+									<option value="BDT">Taka Bangladais</option>
+									<option value="BBD">Dollar de la Barbade</option>
+									<option value="BYR">Rouble Biélorusse</option>
+									<option value="BZD">Dollar de Belize</option>
+									<option value="BMD">Dollar des Bermudes</option>
+									<option value="BTN">Ngultrum Bhoutanais</option>
+									<option value="BOB">Boliviano Bolivien</option>
+									<option value="BWP">Pula Botswanais</option>
+									<option value="BRL">Real Brésilien</option>
+									<option value="BND">Dollar de Brunei</option>
+									<option value="BGN">Lev Bulgare</option>
+									<option value="BIF">Franc du Burundi</option>
+									<option value="KHR">Riel Cambodgien</option>
+									<option value="CVE">Escudo du Cap Vert</option>
+									<option value="KYD">Dollar des Îles Caïman</option>
+									<option value="XOF">Franc CFA (BCEAO)</option>
+									<option value="XAF">Franc CFA (BEAC)</option>
+									<option value="CLP">Peso Chilien</option>
+									<option value="COP">Peso Colombien</option>
+									<option value="KMF">Franc Comorien</option>
+									<option value="CRC">Colón Costaricain</option>
+									<option value="HRK">Kuna Croate</option>
+									<option value="CUP">Peso Cubain</option>
+									<option value="CZK">Couronne Tchèque</option>
+									<option value="DKK">Couronne Danoise</option>
+									<option value="DJF">Franc Djiboutien</option>
+									<option value="DOP">Peso Dominicain</option>
+									<option value="XCD">Dollar des Caraïbes Orientales</option>
+									<option value="EGP">Livre Egyptienne</option>
+									<option value="SVC">Colon Salvadorien</option>
+									<option value="EEK">Couronne Estonienne</option>
+									<option value="ETB">Birr Ethiopien</option>
+									<option value="FKP">Livre des Iles Falklands</option>
+									<option value="FJD">Dollar Fidjien</option>
+									<option value="IDR">Roupie Indonésienne</option>
+									<option value="INR">Roupie Indienne</option>
+									<option value="GMD">Dalasi Gambien</option>
+									<option value="GTQ">Quetzal Guatémaltèque</option>
+									<option value="GNF">Franc Guinéen</option>
+									<option value="GYD">Dollar de Guyana</option>
+									<option value="HTG">Gourde Haïtienne</option>
+									<option value="HNL">Lempira Hondurien</option>
+									<option value="HUF">Forint Hongrois</option>
+									<option value="ISK">Couronne Islandaise</option>
+									<option value="IRR">Rial Iranien</option>
+									<option value="IQD">Dinar Irakien</option>
+									<option value="ILS">Shekel Israelien</option>
+									<option value="JMD">Dollar Jamaïcain</option>
+									<option value="JOD">Dinar Jordanien</option>
+									<option value="KZT">Tenge du Kazakhstan</option>
+									<option value="KES">Shilling Kenyan</option>
+									<option value="KRW">Won Coréen</option>
+									<option value="KWD">Dinar Koweïtien</option>
+									<option value="LAK">Kip Laotien</option>
+									<option value="LVL">Lats Letton</option>
+									<option value="LBP">Livre Libanaise</option>
+									<option value="LSL">Loti Lesothan</option>
+									<option value="LRD">Dollar du Liberia</option>
+									<option value="LYD">Dinar Lybien</option>
+									<option value="LTL">Lita Lituanienne</option>
+									<option value="MOP">Pataca de Macau</option>
+									<option value="MKD">Dinar Macédonien</option>
+									<option value="MWK">Kwacha Malawite</option>
+									<option value="MYR">Ringgit Malaisien</option>
+									<option value="MVR">Roupie des Maldives</option>
+									<option value="MRO">Ouguiya Mauritanien</option>
+									<option value="MUR">Roupie Mauricienne</option>
+									<option value="MDL">Leu Moldave</option>
+									<option value="MNT">Tugrik Mongol</option>
+									<option value="MAD">Dirham Marocain</option>
+									<option value="MMK">Kyat de Myanmar</option>
+									<option value="NAD">Dollar de Namibie</option>
+									<option value="NPR">Roupie Népalaise</option>
+									<option value="ANG">Gulden Antilles Néerlandaises</option>
+									<option value="NZD">Dollar NéoZélandais</option>
+									<option value="NIO">Cordoba Nicaragayen</option>
+									<option value="NGN">Naira Nigérian</option>
+									<option value="KPW">Won NardCoréen</option>
+									<option value="NOK">Couronne Norvégienne</option>
+									<option value="OMR">Riyal d'Oman</option>
+									<option value="XPF">Franc CFP</option>
+									<option value="PKR">Roupie pakistanaise</option>
+									<option value="PAB">Balboa Panaméen</option>
+									<option value="PGK">Kina de PapouasieNlle Guinée</option>
+									<option value="PYG">Guarani du Paragua</option>
+									<option value="PEN">Sol Péruvien</option>
+									<option value="PHP">Peso Philippin</option>
+									<option value="PLN">Zloty Polonais</option>
+									<option value="QAR">Riyal du Qatar</option>
+									<option value="RON">Leu Roumain (Nouveau)</option>
+									<option value="RWF">Franc Rwandais</option>
+									<option value="WST">Tala Samoan</option>
+									<option value="STD">Dobra Santoméen</option>
+									<option value="SAR">Riyal Saoudien</option>
+									<option value="SCR">Roupie Seychelloise</option><option value="SLL">Leone de Sierra Leone</option>
+									<option value="SGD">Dollar de Singapour</option>
+									<option value="SKK">Couronne Slovaque</option>
+									<option value="SBD">Dollar des Îles Salomon</option>
+									<option value="SOS">Shilling de Somalie</option>
+									<option value="LKR">Roupie SriLankaise</option>
+									<option value="SHP">Livre de SaintHélène</option>
+									<option value="SDG">Livre Soudanaise</option>
+									<option value="SZL">Lilangeni Swazilandais</option>
+									<option value="SEK">Couronne Suédoise</option>
+									<option value="SYP">Livre Syrienne</option>
+									<option value="THB">Baht Thaïlandais</option>
+									<option value="TRY">Lire Turque</option>
+									<option value="TWD">Dollar Taïwainais</option>
+									<option value="TZS">Shilling Tanzanien</option>
+									<option value="TOP">Tongan paʻanga</option>
+									<option value="TTD">Dollar de Trinidad et Tobago</option>
+									<option value="TND">Dinar Tunisien</option>
+									<option value="AED">Dirham Émiratsarabes unis</option>
+									<option value="UGX">Shilling Ougandais</option>
+									<option value="UAH">Grivna Ukrainienne</option>
+									<option value="UYU">Peso Uruguayen (Nouveau)</option>
+									<option value="VUV">Vatu des Îles Vanuatu</option>
+									<option value="VND">Dong Vietnamien</option>
+									<option value="YER">Riyal du Yémen</option>
+									<option value="ZMK">Kwacha Zambien</option>
+									<option value="ZWD">Dollar Zimbabwéen</option>
+									<option value="VEF">Bolívar Vénézuélien</option>
+									<option value="UZS">Sum ouzbek</option>
+									<option value="KGS">Kirghizistan Som</option>
+									<option value="GHS">Cedi Ghanéen (Ancien)</option>
+								</select>
+							</div>
+						</fieldset>
+						<!-- <span class="simulater-inverse" onclick="inversefxexchangerate()">&#8645;</span> -->
+						<fieldset class="box-simulater">
+							<label class="label-simulater">To:</label>
+							<div class="scrollable">
+								<select class="select-simulater" id="fxexchangerateTo" onchange="getfxexchangerate(); return false;">
+									<option value="XOF" selected="selected">Ivory Coast</option>
+									<option value="XOF">Burkina Faso</option>
+									<option value="XOF">Mali</option>
+									<option value="XOF">Niger</option>
+									<option value="XOF">Togo</option>
+								</select>
+							</div>
+						</fieldset>
+					</div>
+					<div class="container-simulater--converter">
+						<fieldset class="simulater-converter">
+							<label class="converter-title">Your send</label>
+							<span class="converter-items">
+								<p class="items-text" id="fxspanfm">EUR</p>
+								<input class="converter-items-input" placeholder="0" value="1" type="text" id="fxexchangerateAmount" onkeyup="getfxexchangerate(); return false;"></input>
+							</span>
+						</fieldset>
+						<fieldset class="simulater-converter">
+							<label class="converter-title">They receive</label>
+							<span class="converter-items">
+								<p class="items-text">FCFA</p>
+								<p class="converter-items-input" id="fxexchangerateResult"></p>
+							</span>
+						</fieldset>
+						<span class="container-simulater--description">
+							<p class="simulater-description description-rate">Today's rate: €1 = 655.96 FCFA</p>
+							<p class="simulater-description"> €2.00 fee</p>
+						</span>
+					</div>
+				</form>
+				<div class="firstbox-simulater">
+					<div class="box-titulo">
+						<h2 class="title-simulater">Simulez votre transfert</h2>
+						<h3 class="subtitle-simulater">QuickCash is currently available in these countries:</h3>
+					</div>
+					<ul class="box-country">
+						<li class="country-name"><img src="../img/Flag_Ivory_Coast.svg" class="country-flag" alt="country-flag">
+							Ivory Coast</li>
+						<li class="country-name"><img src="../img/Flag_of_Burkina_Faso.svg" class="country-flag" alt="country-flag">Burkina Faso</li>
+						<li class="country-name"><img src="../img/Flag_of_Mali.svg" class="country-flag" alt="country-flag">Mali</li>
+						<li class="country-name"><img src="../img/Flag_of_Niger.svg" class="country-flag" alt="">Niger</li>
+						<li class="country-name">	<img src="../img/Flag_of_Togo.svg" class="country-flag-togo" alt="country-flag">Togo</li>
+					</ul>
+				</div>	
+			</div>  
+		</section>
+		<section id="s-slide">
+			<div class="wrapper-simulater">
+					<div class="box-slide">
+						<div class="slide">
+							<figure class="seta-desktop"><img src="../img/noun_Arrow_2427329 (1).svg" onclick="plusDivs(1)">
+							</figure>
+							<div for="slide" class="slide-box">
+									<figure class="slide-figure">
+										<img src="../img/Marie.png" alt="Marie-picture" class="img-slide">
+									</figure>
+									<span class="box-depoiment">
+										<p class="depoiment-text">Vivre loin de sa famille n’est pas facile en tant qu’homme et j’ai le devoir de subvenir aux besoins de ma famille. Avec QuickCash je ne me fais plus de soucis car envoyer de l’argent à ma famille n’a jamais été aussi facile et surtout les frais de transactions sont très abordables.</p>	
+										<h3 class="depoiment-title">ISSA</h3>
+									</span>
+								</div>
+								<div for="slide" class="slide-box">
+									<figure class="slide-figure">
+										<!-- <img class="img-slide" src="./Assets/img/depoimento2.png" alt=""> -->
+										<img src="../img/Eliane.jpg" alt="" class="img-slide">
+									</figure>
+									<span class="box-depoiment">
+										<p class="depoiment-text">C’est mon amie qui m’a parlé de QuickCash qu’elle utilisait pour envoyer de l’argent à ses parents, alors j’ai moi aussi décidé de tester et depuis je n’utilise plus d’autre service d’envoi d’argent surtout pour la proximité des points d’envoi.</p>
+										<h3 class="depoiment-title"> ELIANE</h3>
+									</span>
+								</div>
+								<div for="slide" class="slide-box">
+									<figure class="slide-figure">
+										<!-- <img class="img-slide" src="./Assets/img/depoimento3.png" alt=""> -->
+										<img src="../img/Emmanuel testimony.jpg" alt="" class="img-slide">
+									</figure>
+									<span class="box-depoiment">
+										<p class="depoiment-text">Quand je suis arrivé en Côte d’Ivoire j’ai été confronté à un souci, j’avais égaré mon sac avec toutes mes affaires carte de crédit tout. Grâce au réseau de QuickCash j’ai pu recevoir de l’argent depuis la France et heureusement quelque jours après j’ai été contacté par quelqu’un qui avait trouvé mes affaires intacte.</p>
+										<h3 class="depoiment-title">EMMANUEL</h3>
+									</span>
+								</div>
+							<figure class="seta-desktop"><img src="../img/noun_Arrow_2427329.svg" onclick="plusDivs(-1)">
+							</figure>
+							<div class="seta-mobile">
+								<figure><img src="../img/noun_Arrow_2427329 (1).svg" onclick="plusDivs(1)"></figure>
+								<figure><img src="../img/noun_Arrow_2427329.svg" onclick="plusDivs(-1)"></figure>
+							</div>
+							<div class="circle-slide1"></div>
+						</div>
+					</div>
+					<div class="box-writing">
+						<p class="writing">
+							Writing a new page in the history of money transfer along with you!
+						</p>
+						<div class="circle-slide2"></div>
+					</div>
+				</div>
+		</section>
+		<section id="container-agency" class="map">
+			<div class="wrapper-agency container">
+				<img class="icon-agency" src="./Assets/img/globo.svg" alt="globo">
+					<h2 class="title-agency">Trouvez une agence près de vous!</h2>
+
+				<form class="form-agency map-form">
+					<label 
+						class="label-agency map-label" 
+						for="country">
+						Country
+						<select 
+							id="country" 
+							class="map-select" 
+							name="country" 
+							placeholder="country"
+							onchange="handleData(event)"
+						>
+							<option id="-1">select a country</option>
+							<option value="Cote d'Ivoire">COTE D'IVOIRE</option>
+						</select>
+					</label>
+					<label class="label-agency map-label" for="city">
+						City
+						<select 
+							name="city" 
+							id="city" 
+							placeholder="City"
+							onchange="handleData(event)"
+						>
+							<option value="">select a city</option>
+						</select>
+					</label>
+					<label class="label-agency map-label" for="agency">
+						Agency
+						<select 
+							name="agency" 
+							id="agency" 
+							placeholder="Agency"
+							onchange="handleData(event)"
+						>
+							<option value="">select a agency</option>
+						</select>
+					</label>
+					<button 
+						class="button-agency"
+						type="button"
+						onclick="filterAgency()"
+					>
+						SEARCH
+					</button>
+				</form>
+				<div class="map-content" 
+					id="mapContent">
+					<!-- Dinamic content -->
+				</div>
+			</div>
+		</section>
+		<section id="social-impact-news">
+			<div class="wrapper-impact">
+				<div class="wapper-social">
+					<span class="span-title">	
+						<h2 id="news" class="title-social">Actualités</h2>
+					</span>
+					<div class="impact-news">
+						<div class="social-impact">
+							<div class="box-img-social">
+								<figure class="social-figure">
+									<img class="img-impact" src="../img/forum-mondiale.png" alt="">
+								</figure>
+								<div class="box-txt-social">
+									<h3 class="title-socialimpact" data-translatable>Quickcash au forum mondial des droits de l’homme au maroc</h3>
+									<p class="p-socialimpact"  id="closed" data-translatable>Après le Brésil s’est déroulée au Maroc du 27 au 30 Novembre 2014, la deuxième édition du Forum mondial des droits de l’Homme. Ce Forum a rassemblé pendant 4 jours plus de 8.000 participants sur divers thématiques concernant les Droits de l’Homme</p>
+									<span class="showmore-news" id="box-news-span">
+										&lt;Show more News&gt;
+									</span>
+								</div>
+							</div>
+							<div class="box-img-social reverse">
+								<figure class="social-figure">
+									<img class="img-impact" src="../img/Atelier secteur agricole.png" alt="">
+								</figure>
+								<div class="box-txt-social">
+									<h3 class="title-socialimpact" data-translatable>Le secteur agricole face aux enjeux du changement climatique</h3>
+									<p class="p-socialimpact" id="closed1" data-translatable >Le 21 Novembre 2014, à l’initiative de la CGECI (Confédération Générale des Entreprises de Côte d’Ivoire) et l’UNEMAF (L’Union des Entreprises Agricoles et Forestières) s’est tenue à la Maison de l’Entreprise, sise au plateau, un atelier d’information et de sensibilisation des acteurs du secteur agricole. Les thèmes abordés étaient relatifs à l’impact des changements climatiques sur l’agriculture et les stratégies d’adaptation et d’atténuation de leurs effets. La présence de QUICKCASH à cet atelier se justifiait par le fait que la majorité de sa clientèle est constituée d’agriculteurs. Nous avons donc tenu à mettre l’information à la disposition de nos clients.</p>
+									<span class="showmore-news" id="box-news-span1">
+										&lt;Show more News&gt;
+									</span>
+								</div>
+							</div>
+						<div class="box-img-social">
+							<figure class="social-figure">
+								<img class="img-impact" src="../img/Forum_RSE_Lille.jpg" alt="">
+							</figure>
+							<div class="box-txt-social">
+								<h3 class="title-socialimpact">QuickCash au forum de Lille sur la RSE</h3>
+								<p class="p-socialimpact" id="closed2">La 8e édition du Forum Internationale de Lille, s’est ouverte du 21 au 24 Octobre 2014 devant un public de plus de 6.000 participants autour de 9 défis majeurs : Les ressources de la science et des technologies, de l’emploi, des inégalités, de l’éducation, de la démographie, la finance, de l’information et des territoires. Les cérémonies d’ouverture et de clôture a vu la participation des précurseurs du social business que sont le Pr YUNUS MUHAMMAD Prix Nobel de la Paix et TONY MELOTO.</p>
+								<span class="showmore-news" id="box-news-span2">
+									&lt;Show more News&gt;
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="container-box-news">
+				<div class="container-news">
+					<div class="boxred-news">
+						<h2 class="title-news">Actualités</h2>
+					</div>
+					<div class="box-news-items">
+						<div class="box-news">
+							<h3 class="subtitle-news">Participation de Mme Patricia Zoundi Yao, Administrateur Général de QuickCash au Global Entrepreneurship Summit (GES)</h3>
+							<p class="p-news">L’Administrateur Général de QuickCash, Mme Patricia Zoundi Yao, a été sélectionnée pour participer à la 7ème édition du Global Entrepreneurship Summit (GES) qui s’est tenue du 22 au 24 juin 2016, aux Etats Unis précisément sur le campus de Stanford en Silicon Valley l’un des plus grands centres de l’innovation et de l’entreprenariat.</p>
+						</div>
+						<div class="wrapper-news" id="closed">
+
+							<div class="box-news">
+								<h3 class="subtitle-news">Participation de Quickcash à la campagne « ewaste » de MTN Côte d’Ivoire</h3>
+								<p class="p-news">Lancée le 07 octobre 2015, la campagne « EWASTE » pour laquelle MTN Côte d’Ivoire et ERICSON étaient en partenariat, a duré quatre (4) mois et s’est clôturée le 07 Février par une cérémonie au Pullman Hôtel du Plateau.</p>
+							</div>
+
+							<div class="box-newsLast">
+								<h3 class="subtitle-news">QuickCash honoré à la Journée Nationale de l’Excellence 2014</h3>
+								<p class="p-news">Mme Patricia ZOUNDI épouse YAO, administrateur général de QuickCash a reçu le prix d'excellence de l'entreprenariat jeune le vendredi 1er août dernier à l’occasion de la Journée Nationale de l'Excellence. Tenue au palais de la présidence, la cérémonie a été rehaussée par la présence du couple présidentiel, des membres du gouvernement, de plusieurs diplomatiques et responsables d'institution..</p>
+							</div>
+
+						</div>
+						<span class="showmore-news" id="box-news-span">
+							&lt;Show more News&gt;
+						</span>
+					</div>
+				</div>
+			</div> -->
+		</div>
+		</section>
+		<section id="partners">
+			<div class="div-part">
+				<div class="box-part">
+					<h2 class="title-partners">Nos partenaires</h2>
+					<div class="list-part">
+						<img src="../img/Logo_APG.png" class="logo-apg" alt="">
+						<img src="../img/logo_ASUSU_SA.png" class="img-part" alt="">
+						<img src="../img/Logo_BPEC_(banque populaire).jpg" class="logo-bpec" alt="">
+						<img src="../img/Logo_Bank_of_africa_logo.png" class="img-part" alt="">
+						<img src="../img/Logo_KATARI_SARL.jpeg" class="img-part" alt="">
+						<img src="../img/Logo_Sonapost_Burkina_Faso.png" class="img-part" alt="">
+						<img src="../img/Logo_shakaexpress.png" class="img-part" alt="">
+						<img src="../img/Logo_CNCE.jpg" class="img-part" alt="">
+						<img src="../img/logo_TIMBUKTU_XECHANGE.png" class="img-part" alt="">
+						<img src="../img/logo_TRANSFAST.png" class="logo-part" alt="">
+						<img src="../img/logo_WORLREMIT.png" class="logo-part" alt="">
+					</div>
+				</div>
+				<div class="box-part">
+					<h2 class="title-partners">Partenaires Institutionnels</h2>
+					<div class="list-part">
+						<img src="../img/inovapay.png" class="logo-inovapay" alt="">
+						<img src="../img/logo2.png" class="img-part" alt="">
+						<img src="../img/moneytrans.png" class="img-part" alt="">
+						<img src="../img/Logo_stanford-university.png" class="img-part" alt="">
+						<img src="../img/camec.png" class="img-part" alt="">
+						<img src="../img/chamber-trust.png" class="img-part" alt="">
+						<img src="../img/Logo_CGECI.png" class="img-part" alt="">
+						<img src="../img/Logo_Exxonmobil.png" class="img-part" alt="">
+						<img src="../img/Logo_Plan.jpg" class="img-part" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="footer">
+		<div class="footer-content">
+			<div class="wrapper-footer">
+				<div id="Contacts" class="box-grand-circle">
+					<div class="grand-circle">
+						<img class="img-grand-circle" src="../img/detalhe_footer_grande.svg" alt="">
+					</div>
+				</div>
+				<div class="container-footer">
+					<div class="box-footer-center">
+						<div class="box-footer">
+							<div class="text-footer">
+								<figure>
+									<img src="../img/new logo - QC Branca.svg" class="img-logo-footer" a
+										href="../css/style.css"></a>
+								</figure>
+								<ul class="list-contact">
+									<li class="contact-item">
+										<img src="../img/baseline-location_on-24px.svg" class="info-footer-img" alt="">
+									<p class="p-info-footer">Star 14, Angre 9e Tranche, Abidjan, Côte D’Ivoire</p>
+									</li>
+									<li class="contact-item">
+										<img src="../img/baseline-phone-24px (1).svg" class="info-footer-img" alt="">
+									<p class="p-info-footer">Tel : (+225) 22 50 45 72 </p>
+									</li>
+									<li class="contact-item">
+										<img src="../img/baseline-email-24px.svg" class="info-footer-img" alt="">
+									<p class="p-info-footer">Email : infos@quickcashci.com</p>
+									</li>
+								</ul>
+							</div>
+							<div class="box-copyright-desktop">
+								<p class="copyright">Copyright © 2019 QuickCash - All Rights Reserved </p>
+							</div>
+						</div>
+					</div>
+					<nav class="menu-secundario">
+						<ul class="list-menu-secundario">
+							<a href="../pages/about.html">
+								<li class="item-menu-footer">Qui Sommes-Nous ?</li>
+							</a>
+							<a href="../pages/products.html">
+								<li class="item-menu-footer">Nos Produits</li>
+							</a>
+							<a href="#news" class="menu-footer-news">
+								<li class="item-menu-footer menu-footer-news">Actualités</li>
+							</a>
+							<a href="#Contacts">
+								<li class="item-menu-footer">Contact</li>
+							</a>
+						</ul>
+						<img class="img-circle-whith" src="../img/detalhe_footer_pequeno.svg" alt="">
+					</nav>
+					<div class="box-copyright-mobile">
+						<p class="copyright">Copyright © 2019 QuickCash - All Rights Reserved </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="https://www.vainaweb.com.br" class="footer-author">
+			<div class="footer-author">
+				<p class="author-text">Developed by</p>
+				<img src="../img/VnW-Logo.svg" alt="logo Vai na Web" class="logo-vnw">
+			</div>
+		</a>		
+	</footer>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="../js/agencyList.js"></script>
+	<script src="../js/newConversor.js"></script>
+	<script>
+		let slideIndex = 1;
+
+		showDivs(slideIndex);
+		function plusDivs(n) {
+			showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+			let i;
+			let x = document.getElementsByClassName("slide-box");
+			if (n > x.length) { slideIndex = 1 }
+			if (n < 1) { slideIndex = x.length }
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			x[slideIndex - 1].style.display = "flex";
+		}
+	</script>
+	<script src="../js/main.js"></script>
+	<script src="../js/agency.js"></script>
+</body>
+
+</html>
