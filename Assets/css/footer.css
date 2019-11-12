@@ -100,7 +100,7 @@
 }
 
 .list-contact {
-  height: 45%;
+  height: auto;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
