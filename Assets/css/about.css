@@ -49,13 +49,13 @@
 }
 
 .title-about{
-  height: 20vh;
+  height: 15vh;
   padding-bottom: 1rem;
   display: flex;
   align-items: flex-end;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
 }
 
@@ -97,6 +97,7 @@
 .box-text{
   width: 60%;
   height: 100%;
+  margin-left: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -142,7 +143,7 @@
   color: #fff;
   font-weight: 300; 
   font-size: 1.25rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.15rem;
 }
 @media(max-width:768px) {
   .p-about {
@@ -162,7 +163,7 @@
   font-family: 'Montserrat', sans-serif;
   width: 82%;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 @media(max-width: 768px) {
@@ -175,7 +176,7 @@
 .title-values{
   font-family: 'Montserrat', sans-serif;
   color: #fff;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -323,6 +324,10 @@
     }
   }
 
+  .smaller-box {
+    height: 25vh !important;
+  }
+
 .values-right{
   display: flex;
   justify-content: flex-end;
@@ -379,7 +384,7 @@
 .p-values{
   width: 100%;
   color: white;
-  font-size: 1.15rem;
+  font-size: 1srem;
   line-height: 2rem;
   font-weight: 300;
 ;
@@ -415,10 +420,10 @@
 }
 
 .title-board{
-  width: 95%;
+  width: 100%;
   padding: 3rem 0;
   display: flex;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: red;
   font-weight: 900
 }
@@ -527,8 +532,8 @@
   width: 90%;
   display: flex;
   font-family: "Muli", sans-serif;
-  line-height: 2rem;
-  font-size: 1.15rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
   color: #000000;
   font-weight: 400;
 }
@@ -729,7 +734,7 @@
   display: flex;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   color: red;
   font-weight: 600;
 }
