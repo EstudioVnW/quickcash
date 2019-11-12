@@ -147,8 +147,8 @@
 }
 .container-form.--isOpen {
   position: absolute;
-  bottom: 1rem;
-  right: 1.5rem;
+  bottom: 0;
+  right: 0;
   width: 315px;
   height: 435px;
   display: flex;
