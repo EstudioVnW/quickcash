@@ -137,7 +137,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #fff;
-  font-size: 1.125rem;
+  font-size: 1rem;
   margin: 0.55rem;
 }
 
@@ -173,7 +173,7 @@
 }
 
 .img-logo-footer {
-  width: auto;
+  width: 60%;
 }
 
 @media (max-width: 768px) {
@@ -188,7 +188,7 @@
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 600;
   color: #fff;
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -218,7 +218,7 @@
 .copyright {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 600;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #B42317;
   opacity: 0.7;
 }
@@ -294,6 +294,7 @@
 }
 
 .author-text {
+  font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #000;

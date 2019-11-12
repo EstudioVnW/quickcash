@@ -479,8 +479,8 @@ body {
   font-family: "Muli", sans-serif;
 }
 .sub-title-inside {
-  width: 100%;
-  font-size: 2rem;
+  width: 100%;  
+  font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -505,8 +505,7 @@ body {
 .p-inside {
   width: 75%;
   color: #707070;
-  font-size: 1rem;
-  opacity: 0.7;
+  font-size: .85rem;
   font-family: "Muli", sans-serif;
 }
   @media(max-width: 768px) {

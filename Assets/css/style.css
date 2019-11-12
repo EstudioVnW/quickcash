@@ -73,7 +73,7 @@
 .title-principal {
   width: 475px;
   color: white;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   margin-top: 30vh;
@@ -113,8 +113,8 @@
   }
 }
 .button-contact-img {
-  width: 47px;
-  height: 56px;
+  width: 35px;
+  /* height: 56px; */
 }
 @media (max-width: 768px) {
   .button-contact-img {
@@ -125,7 +125,7 @@
 }
 .button-description {
   margin-left: 0.75rem;
-  font-size: 1.55rem;
+  font-size: 1.25rem;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
 }
@@ -262,7 +262,7 @@
 .title-ourproducts {
   padding-top: 2rem;
   color: #fff;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Montserrat", sans-serif;
 }
 @media (max-width: 768px) {
@@ -316,7 +316,7 @@
   width: 86%;
   text-align: center;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
 }
@@ -329,7 +329,7 @@
   width: 80%;
   text-align: center;
   color: #fff;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-family: "Muli", sans-serif;
 }
 
@@ -378,7 +378,7 @@
 
 .title-simulater {
   font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #fff;
   width: 95%;
@@ -387,7 +387,7 @@
 .subtitle-simulater {
   width: 80%;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   margin: 1rem 0;
@@ -429,7 +429,7 @@
 }
 
 .label-simulater {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
@@ -486,7 +486,7 @@
 
 .converter-title {
   color: #6B6B6B;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .converter-items {
@@ -603,7 +603,7 @@
   display: flex;
   align-items: center;
   color: white;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
 }
@@ -709,7 +709,7 @@ simulater-fig {
 }
 
 .seta-desktop {
-  width: 10%;
+  width: auto;
   padding: 0 2rem;
   display: flex;
   justify-content: center;
@@ -789,7 +789,7 @@ simulater-fig {
 }
 
 .depoiment-text {
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 1.5rem;
   font-family: "Muli", sans-serif;
 }
@@ -802,8 +802,9 @@ simulater-fig {
 }
 
 .depoiment-title {
-   font-size: 1.35rem;
-   margin-bottom: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
 }
 
 @media(max-width: 768px) {
@@ -865,7 +866,7 @@ input:checked ~ .slide-box-2 {
   color: #fff;
   font-weight: 900;
   font-style: italic;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: "Montserrat", sans-serif;
 }
 @media (max-width: 768px) {
@@ -962,7 +963,7 @@ input:checked ~ .slide-box-2 {
   }
 }
 .title-agency {
-  font-size: 4rem;
+  font-size: 2rem;
   color: rgba(238, 51, 37, 1);
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -1086,7 +1087,7 @@ input:checked ~ .slide-box-2 {
 .label-agency {
   width: 100%;
   margin: 5px 0;
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
@@ -1094,14 +1095,11 @@ input:checked ~ .slide-box-2 {
 .button-agency {
   padding: 5px;
   margin-top: 1rem;
-
   display: flex;
   justify-content: flex-end;
-
   border: 0;
-  background-color: #f8f8f8;
-  
-  font-size: 1.2rem;
+  background-color: #f8f8f8;  
+  font-size: .90rem;
   color: #2688cc;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -1259,7 +1257,7 @@ input:checked ~ .slide-box-2 {
 
 .title-social {
   color: #0183ca;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
@@ -1357,7 +1355,7 @@ input:checked ~ .slide-box-2 {
   margin-bottom: 1rem; 
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 @media (max-width: 768px) {
   .title-socialimpact {
@@ -1367,7 +1365,7 @@ input:checked ~ .slide-box-2 {
 
 .p-socialimpact {
   text-align: left;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-family: "Muli", sans-serif;
 }
 
@@ -1397,7 +1395,7 @@ input:checked ~ .slide-box-2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: #459fd9;
   cursor: pointer;
 }
@@ -1583,7 +1581,7 @@ input:checked ~ .slide-box-2 {
   width: 90%;
   display: flex;
   align-self: flex-end;
-  font-size: 1.35rem;
+  font-size: 1.15rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.6);
