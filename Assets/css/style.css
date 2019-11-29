@@ -1311,7 +1311,6 @@ input:checked ~ .slide-box-2 {
   margin: 2rem 0;
   padding: 1rem;
   display: flex;
-  flex-direction: row-reverse;
   align-items: center;
 }
 
