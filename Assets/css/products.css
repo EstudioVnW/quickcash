@@ -376,12 +376,13 @@ body {
 }
 
 .container-inside {
-  height: 90vh;
+  /* height: 90vh; */
   padding: 0 5rem;
-  height: 100vh;
+  min-height: 120vh;
   display: flex;
   justify-content: space-between;
   /* align-items: center  */
+  margin-bottom: 3rem;
 }
 .inside-account{
   justify-content: flex-start;
@@ -520,9 +521,9 @@ body {
   font-weight: bold;
   font-size: 0.8rem;
 }
-/* #OurProducts-Inside-2 {
+ /* #OurProducts-Inside-2 {
   /* display: none; */
-} */
+}  */
 .Inside.--isShow {
   display: none;
 }
