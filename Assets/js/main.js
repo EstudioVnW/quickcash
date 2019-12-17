@@ -49,15 +49,12 @@
   }
 
   function openNews() {
-    console.log('teste clicou ')
     newsOpenBox.classList.toggle("--openBoxNews");
   }
   function openNews1() { 
-    console.log('teste clicou 1')
     newsOpenBox1.classList.toggle("--openBoxNews1");
   }
   function openNews2() {
-    console.log('teste clicou 2')
     newsOpenBox2.classList.toggle("--openBoxNews2");
   }
 
