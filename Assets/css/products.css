@@ -85,12 +85,10 @@ body {
 
 @media(max-width: 768px) {
   #content-cash,
-  #content-card,
   #content-account {
     position: relative;
   }
   #content-cash::after,
-  #content-card::after,
   #content-account::after {
     content: '';
     position: absolute;
@@ -122,16 +120,6 @@ body {
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
     border-top: 40px solid rgb(0, 131, 202);
-  }
-}
-
-.content-card {
-  display: none;
-}
-@media(max-width: 768px) {
-  .content-card {
-    background: #F8F8F8;
-    display: none;
   }
 }
 
@@ -255,7 +243,8 @@ body {
 }
   @media(max-width: 768px) {
     .products-separator-mobile {
-      display: flex;
+			display: flex;
+			align-self: center;
       width: 80vw;
       border-bottom: #fff solid 2px;
     }
